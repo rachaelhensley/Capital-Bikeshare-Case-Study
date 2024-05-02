@@ -1,23 +1,21 @@
 # Capital-Bikeshare-Case-Study
-To Open:
-Need both Excel datasets
-Download the Tableua file
+Overview: 
+As a group, we analyzed the bike rental demand for a company, Capital Bikeshare. To make informed decisions about the supply of the bikes and when the best time is for them to run a promotion, we had to make sure we understood what factors affected the demand to accurately predict the rental demand. Our analysis dove into seasonality, key factors, customer differentiation, and prediction of bike rental demands.
 
-Overview: My group and I worked together to analyze a comapny's legal counsel spend from 2019 to present (November 2023). By analyzing this data, the company was able to see noticeable trends to later make informed decisions based on their expenditures and costs.
-
-Data Description: The data will be obtained from the CounselLink legal invoicing system, and then exported to Excel for analysis. The dataset is rather large, comprising over 10,000 rows. It has been scrubbed for privacy, with no real names, project names, or law firm names included. The data sample we have access to is a mock version of their invoice data that has been approved for use in this project by the company.
+Data Description: 
+The data will be obtained from the CounselLink legal invoicing system, and then exported to Excel for analysis. The dataset is rather large, comprising over 10,000 rows. It has been scrubbed for privacy, with no real names, project names, or law firm names included. The data sample we have access to is a mock version of their invoice data that has been approved for use in this project by the company.
 
 Methodology:
+Import and do preprocessing for data: Load the data into JMP, and create the necessary dummy variables for categorical features.
 
-Import and clean the data: Load the data into Tableau and perform any necessary data cleaning and preprocessing.
 Data Analysis:
-Calculate the total legal outside counsel spend from 2019 to the present.
-Calculate the spend by year, spend by attorney, spend by project, and spend by law firm.
-Report: Compile a report detailing the methodology, findings, visualizations, and any recommendations.
-Expected Outcome: The expected outcome of this project is a comprehensive report that provides clear insights into the company's legal outside counsel spend, with a breakdown of the key metrics identified:
+Create fit models utilizing the features to determine which features cuased multicollinearity or were not significant.
+Utilized predictive modeling techniques to detemrine best method for predicting bike rentals.
+Investigated seasonality through trend lines and seasonality reports.
+Created conclusions and recommendations based on our findings.
 
-spend by year
-spend by attorney
-spend by project
-spend by law firm
-Constraints: We will need to ensure that the analysis complies with any privacy and data usage restrictions imposed by the company. Data has been scrubbed for privacy, with no real names, project names, or law firm names included.
+Report: 
+Compile a report detailing the methodology, findings, visualizations, and recommendations.
+
+Expected Outcome: 
+The expected outcome of this case study is to provide a comprehensive report that provides clear insights into the company's bike rental strategies related to minimizing loss and when to offer promotions.
